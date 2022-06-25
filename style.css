@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 20px;
+    place-items: center;
+    align-content: center;
+
+    margin:0;
+    width: 100%;
+    height: 100%;
+
+    background: url('https://i.etsystatic.com/8127080/r/il/5a4310/2708959171/il_794xN.2708959171_kmg6.jpg') repeat-x center;
+}
+.textbox{
+    border-style: none;
+    height: 40px;
+    width: 500px;
+    font-size: 16pt
+}
+
+h1{
+    margin:0;
+    font-size: 50pt;
+    font-family: 'Pinyon Script', cursive;
+}
+
+.tasks{
+    height: 400px;
+    min-width: 500px;
+    background:white;
+}
+
+.shadow{
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.336))
+}
+button{
+    height: 40px;
+    border-style: none;
+}
+.center{
+    display: grid;
+    justify-items: center;
+}
+ul{
+    display: grid; 
+    grid-auto-flow: row;
+    row-gap: 10px;
+}
